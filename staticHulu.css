@@ -3,7 +3,7 @@ body {
 }
 
 .div1 {
-    background-image: url('..//staticHulu_assets/toppic.jpg');
+    background-image: url('./staticHulu_assets/toppic.jpg');
     background-size: cover; /*why not covering?*/
     height: 550px;
     width: 100vw; /*why not 100vw?*/
