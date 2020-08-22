@@ -1,0 +1,113 @@
+body {
+    background: linear-gradient(to right,  #001a1a, #003333, #004d4d, teal);
+}
+
+.div1 {
+    background-image: url('..//staticHulu_assets/toppic.jpg');
+    background-size: cover; /*why not covering?*/
+    height: 550px;
+    width: 100vw; /*why not 100vw?*/
+    text-align: center;
+    padding-top: 30px;
+    margin: 0px; /*why is there still space btwn div1 and body?*/
+}
+
+h4 {
+    padding-top: 80px;
+    font-weight: 600;
+}
+
+h4, h1 {
+    color: rgb(28, 255, 141);
+}
+
+h1 {
+    font-family: 'Do Hyeon', sans-serif;
+    font-size: 150px;
+    margin: 2px;
+    letter-spacing: 13px;
+}
+
+h4, h2 {
+    font-family: 'Arimo', sans-serif;
+}
+
+h2, h3 {
+    color: white;
+}
+
+h3 {
+    font-family: 'Arimo', sans-serif;
+    font-weight: lighter;
+}
+
+p {
+    color: grey;
+}
+
+.loginbutton {
+    background-color: transparent;
+    border: none;
+    color: white;
+    float: right;
+    margin: 35px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-family: 'Arimo', sans-serif;
+    font-size: 14pt;
+}
+
+.startbutton {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+    color: black;
+    font-weight: 800;
+}
+
+/* flex container pretty useless. either html img or unsizeable css bg img. 
+.flexcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .align-items: center;
+}
+*/
+
+.div2 {
+    position: relative;
+    text-align: center;
+}
+
+.logos {
+    float: left;
+    height: 300px;
+    margin: -16px;
+}
+
+.div2_middle {
+    text-align: center;
+    list-style-type: none;
+}
+
+.div2_right {
+    text-align: right;
+    list-style-type: none;
+}
+
+.bundlebutton {
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    padding: 9px;
+    font-size: 14pt;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.div3 {
+    background-image: url('../staticHulu_assets/bottompic.jpg')
+    position: relative; /* why not working? */
+}
