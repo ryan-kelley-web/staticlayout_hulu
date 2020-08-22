@@ -1,19 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background: linear-gradient(to right,  #001a1a, #003333, #004d4d, teal);
+    overflow-x: hidden;
+
 }
 
 .div1 {
     background-image: url('./staticHulu_assets/toppic.jpg');
-    background-size: cover; /*why not covering?*/
-    height: 550px;
-    width: 100vw; /*why not 100vw?*/
+    background-size: cover;
+    height: 650px;
+    width: 100vw;
     text-align: center;
     padding-top: 30px;
-    margin: 0px; /*why is there still space btwn div1 and body?*/
+    margin: 0px;
 }
 
-h4 {
-    padding-top: 80px;
+h4 {/* try up to */
+    padding-top: 80px; 
     font-weight: 600;
 }
 
@@ -21,28 +28,36 @@ h4, h1 {
     color: rgb(28, 255, 141);
 }
 
-h1 {
+h1 { /* hulu */
     font-family: 'Do Hyeon', sans-serif;
-    font-size: 150px;
-    margin: 2px;
+    font-size: 175px;
+    margin: 6px;
     letter-spacing: 13px;
 }
 
+h2 { /* watch thousands */
+    font-size: 20pt;
+
+}
+
 h4, h2 {
-    font-family: 'Arimo', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 6px;
 }
 
 h2, h3 {
     color: white;
 }
 
-h3 {
+h3 { /* hbo max */
     font-family: 'Arimo', sans-serif;
     font-weight: lighter;
+    margin: 20px;
 }
 
 p {
     color: grey;
+    margin: 10px;
 }
 
 .loginbutton {
@@ -59,55 +74,70 @@ p {
 
 .startbutton {
     background-color: white;
-    padding: 15px;
+    margin: 12px;
+    padding: 28px;
     border-radius: 8px;
     border: none;
     color: black;
-    font-weight: 800;
+    font-size: 12pt;
+    font-weight: 900;
+    letter-spacing: 2px;
 }
 
-/* flex container pretty useless. either html img or unsizeable css bg img. 
-.flexcontainer {
+.container {
     display: flex;
     flex-direction: row;
+    height: 175px;
     justify-content: space-between;
-    .align-items: center;
+    align-items: center;
 }
-*/
 
-.div2 {
-    position: relative;
+.item {
+    padding: .1rem;
     text-align: center;
+    color: white;
+    width: 550px;
+}
+
+.item1 {
+    display: inline-flex;
+}
+
+.item2 {
+}
+
+.item3 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.getBundleButton {
+    border: 3px solid white;
+    background: transparent;
+    color: white;
+    padding: 20px;
+    border-radius: 7px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 900;
+    letter-spacing: 2px;
+    float: right;
+    margin: 35px 35px 10px ;
+}
+
+
+
+.div3 {
+    background-image: url('https://www.hulu.com/static/hitch/s3/2020-07/Tablet-768_Content-Grid%20%281%29.jpg?Zn7GCNjjcIjjFR5p3aAiSY3w7gGqtVx6');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
 }
 
 .logos {
-    float: left;
-    height: 300px;
-    margin: -16px;
-}
-
-.div2_middle {
-    text-align: center;
-    list-style-type: none;
-}
-
-.div2_right {
-    text-align: right;
-    list-style-type: none;
-}
-
-.bundlebutton {
-    border: 2px solid white;
-    background: transparent;
-    color: white;
-    padding: 9px;
-    font-size: 14pt;
-    font-family: 'Arimo', sans-serif;
-    font-weight: 500;
-    border-radius: 5px;
-}
-
-.div3 {
-    background-image: url('../staticHulu_assets/bottompic.jpg')
-    position: relative; /* why not working? */
+    display: inline-flex;
 }
